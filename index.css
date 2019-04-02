@@ -40,8 +40,8 @@ ul {
   box-sizing: border-box;
 }
 
-.p-1 {
-  padding: .5rem;
+.p-3 {
+  padding: 1.5rem;
 }
 
 .pl-1 {
@@ -59,6 +59,8 @@ ul {
 .app {
   display: flex;
   flex-direction: column;
+  max-width: 1140px;
+  margin: auto;
 }
 
 .app-map-container {
